@@ -1,0 +1,27 @@
+.order-tracking-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px 28px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.order-tracking-container h2 {
+  color: #ff6600;
+  margin-bottom: 24px;
+}
+
+.order-status {
+  font-size: 1.2rem;
+  margin-bottom: 18px;
+}
+
+.order-status.pending strong {
+  color: #ff6600;
+}
+
+.order-status.ready strong {
+  color: #28a745;
+}
